@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "931709034394",
+    "firebase_url": "https://styleomegafashionstore.firebaseio.com",
+    "project_id": "styleomegafashionstore",
+    "storage_bucket": "styleomegafashionstore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931709034394:android:f1948f9a4abb87e01ea423",
+        "android_client_info": {
+          "package_name": "com.example.styleomegafashionstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931709034394-815qis514svmrg9vnvf4befuro91c4kr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.styleomegafashionstore",
+            "certificate_hash": "6727649d66f68ba845e41c9616f974f730586d15"
+          }
+        },
+        {
+          "client_id": "931709034394-3q6tvjo8s73ivklhcs827dtt5ihr6307.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaZ7z4gy6FRybVdPlH9u1jTs9QytoCHUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931709034394-3q6tvjo8s73ivklhcs827dtt5ihr6307.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
