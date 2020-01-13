@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Remember Me"
-            android:layout_below="@+id/login_password"
+            android:layout_below="@+id/login_password_input"
             android:textColor="@color/colorPrimaryDark"
             app:cbd_strokeColor="@color/colorPrimaryDark"
             android:gravity="center"
