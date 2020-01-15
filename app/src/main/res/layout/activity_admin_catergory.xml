@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminCatergoryActivity">
+    tools:context=".AdminCatergoryActivity"
+    android:background="@drawable/welcomenew"
+
+        >
+
 
     <TextView
         android:id="@+id/catergory_slogan"
@@ -13,6 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
+        android:textColor="@android:color/black"
         android:text="Add Product"
         android:textAlignment="center"
         android:textSize="35sp"
@@ -27,29 +32,28 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:layout_marginTop="45dp">
-        
+
         <ImageView
-            android:id="@+id/Men"
+            android:id="@+id/men"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:src="@drawable/tshirts"
 
             />
         <TextView
-            android:id="@+id/catergory_Type1"
-            android:layout_width="match_parent"
+            android:id="@+id/catergory_Type_Men"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/Men"
+            android:layout_below="@+id/men"
             android:layout_marginTop="0dp"
             android:text="Men"
             android:textAlignment="center"
             android:textSize="30sp"
-            android:textStyle="bold" />
-
-
-
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
 
     </LinearLayout>
 
@@ -63,27 +67,25 @@
         android:gravity="center"
         android:layout_marginTop="45dp" >
 
-
-
         <ImageView
-            android:id="@+id/Women"
+            android:id="@+id/women"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/female_dresses">
-            
         </ImageView>
 
         <TextView
-            android:id="@+id/catergory_Type2"
-            android:layout_width="match_parent"
+            android:id="@+id/catergory_Type_Women"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/Men"
+            android:layout_below="@+id/men"
             android:layout_marginTop="0dp"
             android:text="Women"
             android:textAlignment="center"
             android:textSize="30sp"
+            android:textColor="@android:color/black"
             android:textStyle="bold" />
             />
 
@@ -100,21 +102,22 @@
         android:layout_marginTop="45dp" >
 
         <ImageView
-            android:id="@+id/Kids"
+            android:id="@+id/kids"
             android:layout_width="98dp"
             android:layout_height="104dp"
             android:src="@drawable/kid"
 
             />
         <TextView
-            android:id="@+id/catergory_Type3"
-            android:layout_width="match_parent"
+            android:id="@+id/catergory_Type_Kids"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/Men"
+            android:layout_below="@+id/women"
             android:layout_marginTop="0dp"
             android:text="Kids"
+            android:textColor="@android:color/black"
             android:textAlignment="center"
             android:textSize="30sp"
             android:textStyle="bold" />

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".AdminCatergoryActivity"></activity>
-        <activity android:name=".AdminActivity" />
+        <activity android:name=".AdminAddNewProductActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
